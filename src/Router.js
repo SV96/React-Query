@@ -9,7 +9,7 @@ import Introduction from "./Intro";
 
 const Router = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/React-Query">
       <Routes>
         <Route element={<CommonContainer />}>
           <Route path="/" element={<Introduction />} />
