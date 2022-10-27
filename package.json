@@ -1,5 +1,6 @@
 {
   "name": "queryreact",
+  "homepage": "https://sv96.github.io/React-Query/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -27,8 +28,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "react-scripts build",
-    "deploy": "gh-pages -d build",
-    "homepage": "https://sv96.github.io/React-Query/"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
