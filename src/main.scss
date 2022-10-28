@@ -82,19 +82,27 @@ img {
 }
 
 .intoItemsMainHeader {
+  border-bottom: 2.5px solid #2a4f6e;
   order: 1;
 }
 
 .intoItemsApproach {
+  border-bottom: 2.5px solid #2a4f6e;
   order: 2;
 }
 
 .intoItemsRectQueryApproach {
+  border-bottom: 2.5px solid #2a4f6e;
   order: 3;
 }
 
 .intoItemsDisplayImg {
-  order: 4;
+  border-bottom: 2.5px solid #2a4f6e;
+}
+
+.intoItemsCacheData {
+  border-bottom: 2.5px solid #2a4f6e;
+  order: 5;
 }
 
 .topic {
@@ -114,11 +122,15 @@ img {
 .codeBlock {
   background: #aeb1b5;
   display: flex;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px #888888;
 }
 
 .codePart {
   background: #aeb1b5;
   padding: 2px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px #888888;
 }
 
 .container {
