@@ -7,7 +7,7 @@ const headerData = {
   React: "https://www.patterns.dev/img/reactjs/react-logo@3x.svg",
   "React Query":
     "https://raw.githubusercontent.com/TanStack/query/main/media/repo-dark.png",
-  SWR: "https://res.cloudinary.com/practicaldev/image/fetch/s--6b7mvu9P--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/vgncmlu98um8dw9ccrcb.jpg",
+  // SWR: "https://res.cloudinary.com/practicaldev/image/fetch/s--6b7mvu9P--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/vgncmlu98um8dw9ccrcb.jpg",
 };
 
 const headerLink = {
