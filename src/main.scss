@@ -100,9 +100,19 @@ img {
   border-bottom: 2.5px solid #2a4f6e;
 }
 
-.intoItemsCacheData {
+.introItemsDevTools{
   border-bottom: 2.5px solid #2a4f6e;
   order: 5;
+}
+
+.introItemsConfig {
+  border-bottom: 2.5px solid #2a4f6e;
+  order: 5;
+}
+
+.intoItemsCacheData {
+  border-bottom: 2.5px solid #2a4f6e;
+  // order: 6;
 }
 
 .topic {
@@ -115,7 +125,7 @@ img {
 
 .headerNormalApprocah {
   font-size: 20px;
-  font-weight: 100;
+  font-weight: 500;
   color: #2a4f6e;
 }
 
@@ -131,6 +141,7 @@ img {
   padding: 2px;
   border-radius: 5px;
   box-shadow: 2px 2px 2px 2px #888888;
+  margin-right: 5px;
 }
 
 .container {

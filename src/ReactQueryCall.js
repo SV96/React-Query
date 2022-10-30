@@ -14,6 +14,8 @@ import {
 } from "@mui/material";
 import "./main.scss";
 import { useNavigate } from "react-router-dom";
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
+
 // ***************** USING REACT QUERY ********************** //
 export const fetchProducts = async () => {
   //   console.log('Fetching products')
@@ -51,7 +53,7 @@ const ReactQueryCall = () => {
           {data &&
             data.map((value) => {
               return (
-                <Grid item md={6} lg={3}>
+                <Grid item md={6} lg={3} key={value.id}>
                   <Card sx={{ height: "100%" }}>
                     <CardMedia
                       component="img"
@@ -82,6 +84,7 @@ const ReactQueryCall = () => {
             Cached Data
           </Button>
         </div>
+        {process.env.REACT_APP_DEPLOYMET === 'DEV' ? <ReactQueryDevtools initialIsOpen={false} /> : null}
       </>
     );
 };
